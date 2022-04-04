@@ -27,12 +27,12 @@ class App extends Component {
 
   onNumberChange = (event) => {
     this.setState({mob_no: event.target.value})
-    console.log(this.state.mob_no)
+    // console.log(this.state.mob_no)
   }
 
   sendIt = () => {
-    console.log("User >> ", this.state.mob_no);
-    console.log("Rating >> ", this.state.rating);
+    // console.log("User >> ", this.state.mob_no);
+    // console.log("Rating >> ", this.state.rating);
     fetch("http://localhost:3000/contact",{
         method:'post',
         headers: {'Content-Type': 'application/json'},

@@ -5,7 +5,7 @@ import './Thanks.css'
 function Thanks() {
   return (
     <Link to='/' >
-    <div className='thanks'>Thanks</div>
+    <div className='thanks'><h3>Thanks</h3></div>
     </Link>
   )
 }
