@@ -1,4 +1,5 @@
 import logo from './logo.png';
+import hand_touch from './hand_touch.png';
 import './App.css';
 import {
   BrowserRouter,
@@ -49,9 +50,13 @@ class App extends Component {
     <div className="App">
     <Routes>
         <Route path='/' element={
-          <Link to='/feedback'>
+          <Link to='/feedback' style={{ textDecoration: 'none' }}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo1" alt="logo" />
+        <h2>Kindly Provide Feedback</h2>
+        <img src={hand_touch} className="App-logo2" alt="logo" />
+        <p className='normal'>Touch the screen to provide feedback</p>
+        <p className='nor'>Disclaimer: All the information provided by you would be use this for Customer Experience</p>
       </header> </Link>}/>
       <Route path='/feedback' element={<Feedback onEventChange ={this.onRatingChange}/>}/>
       <Route path='/contact' element={<Contact sendIt={this.sendIt} onNumberChange = {this.onNumberChange} mob_no={this.state.mob_no}/>}/>

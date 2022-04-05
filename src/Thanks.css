@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
 .thanks{
+    font-family: 'Syne Mono', monospace;
     display: flex;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
     font-size: 100px;
     color: black;
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
 }
 
 h3{
-    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 10px;
 }

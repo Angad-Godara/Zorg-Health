@@ -4,7 +4,7 @@ import './Thanks.css'
 
 function Thanks() {
   return (
-    <Link to='/' >
+    <Link to='/' style={{ textDecoration: 'none' }}>
     <div className='thanks'><h3>Thanks</h3></div>
     </Link>
   )

@@ -1,8 +1,10 @@
 .feedback{
-    background: linear-gradient(to right, rgb(154, 221, 141), rgb(95, 189, 236));
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
+    min-width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  background:cover;
   justify-content: space-evenly;
 }
 
@@ -13,21 +15,22 @@
 }
 
 .button{
-    padding: 60px;
     background-color: inherit;
     border: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-height: 40vh;
+    max-width: 40vh;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.2s;
+}
+
+.img1{
+    max-width: 15vw;
+    max-height: 40vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 .button:hover{
     box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
-}
-
-img{
-    padding: 10px;
-}
-
-h2{
-    padding-top: 20px;
 }

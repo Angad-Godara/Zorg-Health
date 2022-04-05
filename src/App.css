@@ -1,18 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-logo1 {
+  height: 13vh;
+}
+
+.App-logo2 {
+  height: 40vh;
 }
 
 .App-header {
-  background-color: #ffffff;
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: black;
+}
+
+.normal{
+  font-family: 'Syne Mono', monospace;
+  color: black;
+}
+
+.nor{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: black;
 }
