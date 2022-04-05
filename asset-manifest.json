@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/zorg-health/static/css/main.8185f870.css",
-    "main.js": "/zorg-health/static/js/main.801a70eb.js",
-    "static/js/787.b5bfac4d.chunk.js": "/zorg-health/static/js/787.b5bfac4d.chunk.js",
-    "static/media/logo.png": "/zorg-health/static/media/logo.4cbf0fea2b875721c497.png",
-    "static/media/hand_touch.png": "/zorg-health/static/media/hand_touch.ae6215e9fdf5f2229fd0.png",
-    "index.html": "/zorg-health/index.html",
-    "main.8185f870.css.map": "/zorg-health/static/css/main.8185f870.css.map",
-    "main.801a70eb.js.map": "/zorg-health/static/js/main.801a70eb.js.map",
-    "787.b5bfac4d.chunk.js.map": "/zorg-health/static/js/787.b5bfac4d.chunk.js.map"
+    "main.css": "/Zorg-Health/static/css/main.8185f870.css",
+    "main.js": "/Zorg-Health/static/js/main.6967fcb5.js",
+    "static/js/787.b5bfac4d.chunk.js": "/Zorg-Health/static/js/787.b5bfac4d.chunk.js",
+    "static/media/logo.png": "/Zorg-Health/static/media/logo.4cbf0fea2b875721c497.png",
+    "static/media/hand_touch.png": "/Zorg-Health/static/media/hand_touch.ae6215e9fdf5f2229fd0.png",
+    "index.html": "/Zorg-Health/index.html",
+    "main.8185f870.css.map": "/Zorg-Health/static/css/main.8185f870.css.map",
+    "main.6967fcb5.js.map": "/Zorg-Health/static/js/main.6967fcb5.js.map",
+    "787.b5bfac4d.chunk.js.map": "/Zorg-Health/static/js/787.b5bfac4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8185f870.css",
-    "static/js/main.801a70eb.js"
+    "static/js/main.6967fcb5.js"
   ]
 }
