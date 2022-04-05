@@ -15,6 +15,7 @@ class Contact extends Component{
                     name="mob_no"
                     id="mob_no"
                     onChange={this.props.onNumberChange}
+                    placeholder='10 digits mobile number'
                 ></input>
                 <Link to={this.props.mob_no.length === 10 && '/thanks'} className='link' style={{ textDecoration: 'none' }}>
                 <button type=''
