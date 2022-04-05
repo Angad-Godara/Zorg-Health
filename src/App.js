@@ -34,7 +34,7 @@ class App extends Component {
   sendIt = () => {
     // console.log("User >> ", this.state.mob_no);
     // console.log("Rating >> ", this.state.rating);
-    fetch("http://localhost:3000/contact",{
+    fetch("https://pacific-lake-09998.herokuapp.com/contact",{
         method:'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
