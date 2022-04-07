@@ -1,5 +1,5 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 .App {
@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background: linear-gradient(35deg, #ccffff, #ffcccc);
+  background: linear-gradient(35deg, #ccffff, #ffffff);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,7 @@ h2{
   font-weight: 400;
   font-size: 28px;
   color: black;
+  text-transform: uppercase;
 }
 
 .normal{

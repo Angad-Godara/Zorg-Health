@@ -53,10 +53,10 @@ class App extends Component {
           <Link to='/feedback' style={{ textDecoration: 'none' }}>
       <header className="App-header">
         <img src={logo} className="App-logo1" alt="logo" />
-        <h2>Kindly Provide Feedback</h2>
+        <h2>We value your feedback</h2>
         <img src={hand_touch} className="App-logo2" alt="logo" />
         <p className='normal'>Touch the screen to provide feedback</p>
-        <p className='nor'>Disclaimer: All the information provided by you would be use this for Customer Experience</p>
+        <p className='nor'>Disclaimer: All information provided by you would be kept confidential and will be used for enhancing Customer Experience</p>
       </header> </Link>}/>
       <Route path='/feedback' element={<Feedback onEventChange ={this.onRatingChange}/>}/>
       <Route path='/contact' element={<Contact sendIt={this.sendIt} onNumberChange = {this.onNumberChange} mob_no={this.state.mob_no}/>}/>
