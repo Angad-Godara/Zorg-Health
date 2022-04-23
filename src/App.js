@@ -11,6 +11,7 @@ import Feedback from './feedback';
 import { Component } from 'react';
 import Contact from './Contact'
 import Thanks from './Thanks'
+import Admin from './Admin';
 
 class App extends Component {
 
@@ -19,8 +20,18 @@ class App extends Component {
     this.state = {
       rating:'',
       mob_no: '',
+      users: [],
     }
   }
+
+
+  users = () => {
+    fetch("https://pacific-lake-09998.herokuapp.com/data")
+        .then(res => res.json())
+        .then(data => {
+            this.setState({users: data})
+        }).catch(err => console.log('hello'))
+}
 
   onRatingChange = (event) =>{
     this.setState({rating: event})
@@ -49,6 +60,7 @@ class App extends Component {
     <BrowserRouter>
     <div className="App">
     <Routes>
+      <Route path='/admin' element={<Admin users={this.users} data={this.state.users}/>}/>
         <Route path='/' element={
           <Link to='/feedback' style={{ textDecoration: 'none' }}>
       <header className="App-header">
@@ -57,7 +69,8 @@ class App extends Component {
         <img src={hand_touch} className="App-logo2" alt="logo" />
         <p className='normal'>Touch the screen to provide feedback</p>
         <p className='nor'>Disclaimer: All information provided by you would be kept confidential and will be used for enhancing Customer Experience</p>
-      </header> </Link>}/>
+      </header> </Link>
+    }/>
       <Route path='/feedback' element={<Feedback onEventChange ={this.onRatingChange}/>}/>
       <Route path='/contact' element={<Contact sendIt={this.sendIt} onNumberChange = {this.onNumberChange} mob_no={this.state.mob_no}/>}/>
       <Route path='/thanks' element={<Thanks/>}/>
