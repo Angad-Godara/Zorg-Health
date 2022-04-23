@@ -1,0 +1,23 @@
+.admin{
+    background-color: rgb(207, 227, 227);
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 0;
+    font-size:1.5em;
+    background-color: rgba(250, 235, 215, 0.534);
+}
+
+.button__admin{
+    margin: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.527);
+}
+
+.button__admin:hover{
+    background-color: antiquewhite;
+}

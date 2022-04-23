@@ -1,9 +1,6 @@
 .Card{
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-p{
-    margin: 10px;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.358);
 }
